@@ -1,0 +1,49 @@
+.frontpage{
+height: 450px;
+background-color: aqua; 
+display: flex;
+justify-content: center;
+}
+
+
+.card img{
+    height: 200px;
+    border-radius:100%;
+    width:fit-content ;
+    margin-top: 10px;
+
+}
+.card{
+display: flex;
+align-items: center;
+margin:auto;
+flex-direction: column;
+width: 300px;
+background-color: black;
+border-radius: 50px;
+background-color: black;
+}
+.info{
+    color:white
+}
+
+.contcard{
+    border: 1px solid grey; 
+}
+
+.iconscont{
+    display: flex;
+justify-content: space-around;
+}
+.icons{
+    color:white;
+    border:1px solid grey;
+    border-radius:50%;
+    padding:3px;
+}
+
+.icons:hover{
+    transform: scale(1.4);
+    box-shadow: white
+    
+}
