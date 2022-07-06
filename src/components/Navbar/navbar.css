@@ -25,6 +25,11 @@
 .t span{
     margin: 5px;
     padding: 10px;
-    color:white
+    color:white;
+    cursor:pointer
     
+}
+
+.t span:hover{
+    color: #06b84e;
 }

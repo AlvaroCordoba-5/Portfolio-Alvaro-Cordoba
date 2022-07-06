@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../Navbar/NavBar";
 import Frontpage from "../frontPage/Frontpage";
+import Aboutme from "../Aboutme/Aboutme";
 import Skills from "../Skills/Skills";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -12,6 +13,7 @@ function Home() {
     <>
         <NavBar></NavBar>
         <Frontpage></Frontpage>
+        <Aboutme></Aboutme>
        
         
     </>
