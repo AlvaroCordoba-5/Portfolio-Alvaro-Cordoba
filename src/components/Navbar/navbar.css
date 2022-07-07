@@ -7,7 +7,7 @@
 .tags{
     display: flex;
     justify-content: flex-end;
-    background-color: #1f2326
+    background-color: #1b1a27
 }
 .tags h3{
     margin-right: 550px;
@@ -15,7 +15,7 @@
 }
 
 .t{
-    background-color:#1f2326;
+    background-color:#1b1a27;
     padding: 20px;
     width: 50%;
     text-align: center;

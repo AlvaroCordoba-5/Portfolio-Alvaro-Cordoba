@@ -1,4 +1,18 @@
 .skills{
-    background-color: aquamarine;
-    height: 400px;
+    margin-top: 40px;
+    background-color: #1b1a27;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius:5px;
+width: 300px;    
+}
+.reacticons{
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    border-radius:5px
+}
+
+.reacticons:hover{
+    transform: scale(1.4);
 }
