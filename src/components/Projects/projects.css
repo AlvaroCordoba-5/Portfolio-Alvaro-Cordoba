@@ -1,0 +1,21 @@
+.projects{
+    display: flex;
+    
+background-color: red;
+}
+
+.image{
+
+    margin-top: 5px;
+    
+   
+    background-color: blue;
+    width: 800px;
+   
+
+}
+
+
+.image img{
+    object-fit: contain;
+}

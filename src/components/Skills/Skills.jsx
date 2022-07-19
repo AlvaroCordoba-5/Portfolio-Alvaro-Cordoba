@@ -8,6 +8,7 @@ import "./skills.css";
 function Skills() {
   return (
     <>
+        <h1 style={{color:'white'}}>Skills</h1>
       <div className="skills">
         <div>
           <IoLogoJavascript

@@ -2,11 +2,11 @@ import React from "react";
 import NavBar from "../Navbar/NavBar";
 import Frontpage from "../frontPage/Frontpage";
 import Aboutme from "../Aboutme/Aboutme";
-import Skills from "../Skills/Skills";
-import { FaLinkedin } from "react-icons/fa";
+import Projects from "../Projects/Projects";
 
 
-//<Skills></Skills>
+
+
 
 function Home() {
   return (
@@ -14,6 +14,7 @@ function Home() {
         <NavBar></NavBar>
         <Frontpage></Frontpage>
         <Aboutme></Aboutme>
+        <Projects></Projects>
        
         
     </>
