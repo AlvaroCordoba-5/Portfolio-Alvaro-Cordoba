@@ -1,21 +1,27 @@
 .projects{
     display: flex;
-    
-background-color: red;
+    flex-direction: column;
+background-color: black;
+margin-top: 30px;
+}
+
+.cont_projects{
+    display: flex;
+    justify-content: space-around;
 }
 
 .image{
 
     margin-top: 5px;
-    
    
-    background-color: blue;
-    width: 800px;
+    width: 600px;
+    height: 550px;
    
 
 }
 
 
 .image img{
-    object-fit: contain;
+    width: 600px;
+    height: 450px;
 }
