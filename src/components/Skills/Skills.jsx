@@ -22,43 +22,49 @@ function Skills() {
             className="reacticons"
             style={{ color: "#61dafb", backgroundColor: "white" }}
           ></FaReact>
-          <h6>React</h6>
+          <h6>React.js</h6>
         </div>
         <div>
           <FaHtml5
             className="reacticons"
             style={{ color: "white", backgroundColor: "#ff7816" }}
           ></FaHtml5>
+          <h6>Html5</h6>
         </div>
         <div>
           <FaCss3Alt
             className="reacticons"
             style={{ color: "white", backgroundColor: "#2196f3" }}
           ></FaCss3Alt>
+          <h6>Cascading Style Sheets</h6>
         </div>
         <div>
           <FaNodeJs
             className="reacticons"
             style={{ color: "#6da75d", backgroundColor: "white" }}
           ></FaNodeJs>
+          <h6>Node.js</h6>
         </div>
         <div>
           <SiExpress
             className="reacticons"
             style={{ color: "white", backgroundColor: "#2e2e2e" }}
           ></SiExpress>
+          <h6>Express</h6>
         </div>
         <div>
           <SiSequelize
             className="reacticons"
             style={{ color: "#52b0e7", backgroundColor: "white" }}
           ></SiSequelize>
+          <h6>Sequalize</h6>
         </div>
         <div>
           <SiPostgresql
             className="reacticons"
             style={{ color: "white", backgroundColor: "#336791" }}
           ></SiPostgresql>
+          <h6>Postgresql</h6>
         </div>
       </div>
     </>

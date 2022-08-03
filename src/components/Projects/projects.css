@@ -15,12 +15,29 @@ margin-top: 30px;
     width: 600px;
     height: 550px;
 }
-.image:hover{
-    box-shadow: 2px 2px 5px #999;
-}
 
 
 .image img{
     width: 600px;
     height: 450px;
+}
+h6{
+    color:white;
+    display: inline;
+}
+.container_projects{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.button{
+    height: 50px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #06b84e;
 }

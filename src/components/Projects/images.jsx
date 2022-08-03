@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import { BsChevronCompactRight } from "react-icons/bs";
+import { BsChevronCompactLeft } from "react-icons/bs";
+
 
 function Images({img1, img2, img3, img4}) {
   const [selectedImage, setSelectedImage] = useState(0);
@@ -12,24 +15,24 @@ function Images({img1, img2, img3, img4}) {
   
 
   return (
-    <div>
-      <img width={810} height={400} src={allImages[selectedImage]} />
-      <button
+    <div className="container_projects">
+      <button className="button"
         onClick={() => {
           if (selectedImage > 0) setSelectedImage(selectedImage - 1);
         }}
       >
         {" "}
-        Prev
+        <BsChevronCompactLeft />
       </button>
-      <button
+      <img width={810} height={400} src={allImages[selectedImage]} />
+      <button className="button"
         onClick={() => {
           if (selectedImage < allImages.length - 1)
-            setSelectedImage(selectedImage + 1);
+          setSelectedImage(selectedImage + 1);
         }}
       >
         {" "}
-        Next
+        <BsChevronCompactRight></BsChevronCompactRight>
       </button>
     </div>
   );
