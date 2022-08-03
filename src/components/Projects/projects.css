@@ -11,13 +11,12 @@ margin-top: 30px;
 }
 
 .image{
-
     margin-top: 5px;
-   
     width: 600px;
     height: 550px;
-   
-
+}
+.image:hover{
+    box-shadow: 2px 2px 5px #999;
 }
 
 

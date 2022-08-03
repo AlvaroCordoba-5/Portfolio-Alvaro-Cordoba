@@ -15,12 +15,14 @@ function Skills() {
             className="reacticons"
             style={{ color: "black", backgroundColor: "#ffdf00" }}
           ></IoLogoJavascript>
+          <h6>Javascript</h6>
         </div>
         <div>
           <FaReact
             className="reacticons"
             style={{ color: "#61dafb", backgroundColor: "white" }}
           ></FaReact>
+          <h6>React</h6>
         </div>
         <div>
           <FaHtml5
