@@ -31,6 +31,12 @@
 
 .text{
     margin-top: 40px;
+    background-color: #1b1a27;
+    border-radius: 5px;
+    width: 500px;
+    margin: auto;
+    height: 400px;
+    box-shadow: inset 0 0 10px white;
 }
 
 .aboutskills{
