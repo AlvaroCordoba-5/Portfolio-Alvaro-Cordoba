@@ -1,44 +1,44 @@
-.cv{
-    color:white;
-    background-color: black;
-    margin-top: -25px;
+.cv {
+  color: white;
+  background-color: black;
+  margin-top: -25px;
 }
-.cvtext{
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
+.cvtext {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
-.cvtext h1{
-    padding: 5px;
-    border: 1px solid white;
-    font-size: 15px;
-    margin-top: 35px;
-    border-radius:5px;
-    
+.cvtext h1 {
+  padding: 5px;
+  border: 1px solid white;
+  font-size: 15px;
+  margin-top: 35px;
+  border-radius: 5px;
 }
-.cvtext h1:hover{
-    background-color: #06b84e;
-}
-
-.aboutme{
-    background-color: black;
-    margin-top: -25px;
-    height: 400px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.cvtext h1:hover {
+  background-color: #06b84e;
 }
 
-.text{
-    margin-top: 40px;
-    background-color: #1b1a27;
-    border-radius: 5px;
-    width: 500px;
-    margin: auto;
-    height: 400px;
-    box-shadow: inset 0 0 10px white;
+.aboutme {
+  background-color: black;
+  margin-top: -25px;
+  height: 400px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.aboutskills{
- margin: auto;
+.text {
+  margin-top: 40px;
+  background-color: #1b1a27;
+  border-radius: 5px;
+  width: 700px;
+  margin: auto;
+  height: 300px;
+  box-shadow: inset 0 0 10px white;
+  padding: 15px;
+}
+
+.aboutskills {
+  margin: auto;
 }

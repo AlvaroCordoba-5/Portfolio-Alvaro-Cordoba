@@ -24,16 +24,21 @@ function Aboutme() {
         </div>
       </div>
       <div className="aboutme">
-        <div className="aboutskills">
-          <Skills></Skills>
-        </div>
+        
         <div className="text">
-          <h1 style={{ color: "white" }}>Acerca de mi</h1>
-          <p style={{ color: "white", margin: "auto" }}>
+      
+          <p style={{ color: "white", margin: "auto", lineHeight:'1.6' }}>
             <h4 style={{color:"#06b84e"}}>Hola Mundo!</h4><br></br>
-            Soy FullStack Developer buscando su primer experencia laboral IT.
+            Graduado del Bootcamp de Henry donde adquiri
+            conocimientos en varias tecnologias desarrollando proyectos individuales y grupales. Tambien aprendiendo a trabajar
+            en equipo trabaje mis habilidades blandas como comunicacion, resolucion de problemas, Motivacion, Investigacion.
+
+            
 
           </p>
+        </div>
+        <div className="aboutskills">
+          <Skills></Skills>
         </div>
       </div>
     </>

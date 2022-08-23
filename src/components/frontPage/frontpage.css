@@ -3,6 +3,7 @@ height: 600px;
 background-color:black; 
 display: flex;
 justify-content: center;
+
 }
 
 
@@ -28,6 +29,7 @@ background-color: black;
 position: relative;
 height: 400px;
 border: 1px solid white;
+
 }
 .info{
     color:white

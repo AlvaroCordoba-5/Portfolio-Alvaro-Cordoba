@@ -6,6 +6,10 @@ import Captura4 from "./captura4.png";
 import Capturadogs from "./capturadogs.png";
 import Capturadogs2 from "./capturadogs2.png";
 import Capturadogs3 from "./capturadogs3.png";
+import Movies1 from "./movies1.png";
+import Movies2 from "./movies2.png";
+import Movies3 from "./movies3.png";
+import Movies4 from "./movies4.png";
 import "./projects.css";
 import Images from "./images";
 
@@ -13,11 +17,16 @@ function Projects() {
   return (
     <>
       <div className="projects">
-        <h1 style={{ color: "white", margin: "auto" }}>Projects</h1>
+      <div class="glitch" data-text="Proyectos">Proyectos</div>
+
 
         <div className="cont_projects">
           <div className="image">
-            <a href="https://bookstore-lyart-six.vercel.app/" target="_blank">
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://bookstore-lyart-six.vercel.app/"
+              target="_blank"
+            >
               <h1 style={{ color: "white" }}>E-Commerce Bookstore</h1>
             </a>
 
@@ -30,6 +39,7 @@ function Projects() {
           </div>
           <div className="image">
             <a
+              style={{ textDecoration: "none" }}
               href="https://github.com/AlvaroCordoba-5/PI-DOGS"
               target="_blank"
             >
@@ -40,6 +50,22 @@ function Projects() {
               img2={Capturadogs}
               img3={Capturadogs2}
               img4={Capturadogs3}
+            />
+          </div>
+          <div className="image">
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://movies-challenge-tau.vercel.app/"
+              target="_blank"
+            >
+              <h1 style={{ color: "white" }}>App Movies </h1>
+            </a>
+
+            <Images
+              img1={Movies1}
+              img2={Movies2}
+              img3={Movies3}
+              img4={Movies4}
             />
           </div>
         </div>
