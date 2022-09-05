@@ -3,7 +3,7 @@
     background-color: #1b1a27;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    border-radius:5px;
+    border-radius:50px;
 width: 300px;    
 box-shadow: inset 0 0 10px white;
 padding: 35px;
