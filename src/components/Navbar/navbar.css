@@ -7,14 +7,13 @@
 }
 .tags{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: black;
-    position: sticky;
-    top: 0px;
+    
 }
 .tags h3{
-    margin-right:1500px;
-    color:white
+    color:white;
+   
 }
 
 .t{

@@ -29,6 +29,8 @@ background-color: black;
 position: relative;
 height: 400px;
 border: 1px solid white;
+position: sticky;
+top: 0px;
 
 }
 .info{
@@ -42,13 +44,16 @@ border: 1px solid white;
 .iconscont{
     display:grid;
     grid-template-columns: repeat(5,1fr);
-    margin: auto;
+    
+    
 
 }
 .icons{
     color:white;
     margin: 5px;
-    box-shadow:  black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     
 }
 

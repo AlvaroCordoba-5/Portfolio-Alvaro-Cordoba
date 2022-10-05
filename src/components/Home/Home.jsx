@@ -7,8 +7,8 @@ import Projects from "../Projects/Projects";
 function Home() {
   return (
     <>
-      <NavBar></NavBar>
       <Frontpage></Frontpage>
+      {/*<NavBar></NavBar>*/}
       <Aboutme></Aboutme>
       <Projects></Projects>
     </>

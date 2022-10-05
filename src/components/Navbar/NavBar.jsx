@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <>
       <div className="tags">
-        <h3>Alvaro Cordoba</h3>
+        <h3 style={{marginLeft:"25px"}}>Alvaro Cordoba</h3>
         {/*<div className="t">
           <span>Home</span>
           <span>About</span>
