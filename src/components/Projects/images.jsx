@@ -24,7 +24,7 @@ function Images({img1, img2, img3, img4}) {
         {" "}
         <BsChevronCompactLeft />
       </button>
-      <img width={810} height={400} src={allImages[selectedImage]} />
+      <img className="images" width={810} height={400} src={allImages[selectedImage]} />
       <button className="button"
         onClick={() => {
           if (selectedImage < allImages.length - 1)

@@ -17,8 +17,8 @@ function Projects() {
   return (
     <>
       <div className="projects">
-      <div class="glitch" data-text="Proyectos">Proyectos</div>
 
+      <div class="glitch" data-text="Proyectos">Proyectos</div>
 
         <div className="cont_projects">
           <div className="image">
@@ -27,10 +27,10 @@ function Projects() {
               href="https://bookstore-lyart-six.vercel.app/"
               target="_blank"
             >
-              <h1 style={{ color: "white" }}>E-Commerce Bookstore</h1>
+            <h1 style={{ color: "white" }}>E-Commerce Bookstore</h1>
             </a>
 
-            <Images
+            <Images 
               img1={Captura1}
               img2={Captura2}
               img3={Captura3}

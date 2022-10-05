@@ -36,43 +36,9 @@ function Frontpage() {
             >
               Full Stack Web Developer
             </h4>
-            <div className="iconscont">
-              <a
-                className="icons"
-                href="https://www.linkedin.com/in/alvaro-cordoba-dev/"
-                target="_blank"
-              >
-                <FaLinkedin></FaLinkedin>
-              </a>
-              <a
-                className="icons"
-                href="https://github.com/AlvaroCordoba-5"
-                target="_blank"
-              >
-                <FaGithubSquare></FaGithubSquare>
-              </a>
-              <a
-                className="icons"
-                href="https://twitter.com/Alvaro__cordoba"
-                target="_blank"
-              >
-                <FaTwitterSquare></FaTwitterSquare>
-              </a>
-              <a
-                className="icons"
-                href="https://wa.me/+5491123992937"
-                target="_blank"
-              >
-                <FaWhatsapp></FaWhatsapp>
-              </a>
-              <a
-                className="icons"
-                href="mailto:cordobaalvaro16@gmail.com"
-                target="_blank"
-              >
-                <FaEnvelopeSquare></FaEnvelopeSquare>
-              </a>
-            </div>
+            
+      
+           
           </div>
         </div>
       </div>

@@ -40,19 +40,20 @@ border: 1px solid white;
 }
 
 .iconscont{
-    display: flex;
-justify-content: space-around;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: auto;
+
 }
 .icons{
     color:white;
-    border:1px solid white;
-    border-radius:50%;
-    padding:3px;
+    margin: 5px;
+    box-shadow:  black;
+    
 }
 
 .icons:hover{
     transform: scale(1.4);
     
-    
-    
 }
+

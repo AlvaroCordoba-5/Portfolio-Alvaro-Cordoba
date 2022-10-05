@@ -8,7 +8,7 @@ import "./skills.css";
 function Skills() {
   return (
     <>
-      <h1 style={{ color: "white" }}>Stack Pern</h1>
+      <h1 style={{ color: "white" }}>STACK </h1>
       <div className="skills">
         <div>
           <IoLogoJavascript

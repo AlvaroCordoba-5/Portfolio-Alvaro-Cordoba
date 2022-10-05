@@ -1,3 +1,28 @@
+/*.hola-Mundo{
+  
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12ch;
+    
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    }
+    
+    @keyframes typing {
+    
+    from { width: 0}
+    }
+    
+    @keyframes blink {
+     50% { border-color: transparent}
+    }*/
+
+
+
+
+
 .cv {
   color: white;
   background-color: black;
@@ -29,14 +54,16 @@
 }
 
 .text {
-  margin-top: 40px;
+  margin-top: 50px;
   background-color: #1b1a27;
   border-radius: 50px;
-  width: 700px;
-  margin: auto;
-  height: 300px;
+  width: 600px;
+  height: 350px;
   box-shadow: inset 0 0 10px white;
-  padding: 15px;
+  padding: 35px;
+  margin: auto;
+  text-align: center;
+  
 }
 
 .aboutskills {

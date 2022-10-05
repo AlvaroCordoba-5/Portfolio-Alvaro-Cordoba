@@ -1,3 +1,4 @@
+
 .projects{
     display: flex;
     flex-direction: column;
@@ -13,14 +14,26 @@ margin-left: 150px;
 
 .image{
     margin-top: 5px;
-    width: 600px;
+    width: 800px;
     height: 550px;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1b1a27;
+
 }
+
+
 
 
 .image img{
     width: 600px;
     height: 450px;
+}
+.image:hover{
+  background: black
 }
 h6{
     color:white;
@@ -51,7 +64,7 @@ h6{
     color: white;
     font-size: 100px;
     position: relative;
-    width: 800px;
+    
     margin: 0 auto;
     font-family: 'Varela', sans-serif;
  }
