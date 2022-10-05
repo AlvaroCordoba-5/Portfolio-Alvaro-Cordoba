@@ -30,7 +30,7 @@ function Aboutme() {
         
         <div className="text">
       
-          <p style={{ color: "white", margin: "auto", lineHeight:'1.6' }}>
+          <p style={{ color: "white", margin: "auto", lineHeight:'1.6', font: "italic small-caps bold 16px/2 cursive" }}>
             <h4  classname= "hola-Mundo" style={{color:"#06b84e"}}>¡Hola Mundo!</h4><br></br>
             Soy un desarrollador Web graduado del Bootcamp de Henry donde adquiri
             conocimientos en varias tecnologias desarrollando proyectos individuales y grupales. Tambien aprendiendo a trabajar

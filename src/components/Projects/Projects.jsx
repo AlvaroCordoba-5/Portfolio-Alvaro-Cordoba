@@ -16,9 +16,10 @@ import Images from "./images";
 function Projects() {
   return (
     <>
+      <div className="text-projects">Proyectos</div>
       <div className="projects">
+      {/*<div class="glitch" data-text="Proyectos">Proyectos</div>*/}
 
-      <div class="glitch" data-text="Proyectos">Proyectos</div>
 
         <div className="cont_projects">
           <div className="image">
