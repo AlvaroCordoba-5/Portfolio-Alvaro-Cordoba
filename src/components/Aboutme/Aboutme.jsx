@@ -31,10 +31,10 @@ function Aboutme() {
         <div className="text">
       
           <p style={{ color: "white", margin: "auto", lineHeight:'1.6', font: "italic small-caps bold 16px/2 cursive" }}>
-            <h4  classname= "hola-Mundo" style={{color:"#06b84e"}}>¡Hola Mundo!</h4><br></br>
+            <h4  classname= "hola-Mundo" style={{color:"#06b84e",fontSize:"25px",margin:"0px"}}>¡Hola Mundo!</h4><br></br>
             Soy un desarrollador Web graduado del Bootcamp de Henry donde adquiri
             conocimientos en varias tecnologias desarrollando proyectos individuales y grupales. Tambien aprendiendo a trabajar
-            en equipo trabaje mis habilidades blandas como comunicacion, resolucion de problemas, Motivacion, Investigacion.
+            en equipo trabaje mis habilidades blandas como comunicacion, resolucion de problemas, Liderazgo, Investigacion.
             Actualmente estoy trabajando en proyectos personales donde estoy poniendo en practica todo lo aprendido
             y tambien aprendiendo nuevas tecnologias!
 
